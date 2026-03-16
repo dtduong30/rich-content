@@ -1,0 +1,64 @@
+[
+  {
+    "id": "messi-playing",
+    "type": "playing",
+    "name": "Lionel Messi",
+    "message": "is now playing",
+    "action": "FIFA 26",
+    "avatar": "https://cdn.discordapp.com/emojis/1355102907866808364.webp?size=240"
+  },
+  {
+    "id": "keanu-playing",
+    "type": "playing",
+    "name": "Keanu Reeves",
+    "message": "is now playing",
+    "action": "Cyberpunk 2077",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Keanu"
+  },
+  {
+    "id": "ronaldo-online",
+    "type": "friend-online",
+    "name": "Cristiano Ronaldo",
+    "message": "is now online",
+    "avatar": "https://cdn.discordapp.com/emojis/1006287871671541760.webp?size=240"
+  },
+  {
+    "id": "cook-message",
+    "type": "message",
+    "name": "Tim Cook",
+    "message": "sent you a message:",
+    "action": "\"Sent from my iPhone\"",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=TimCook"
+  },
+  {
+    "id": "gaben-message",
+    "type": "message",
+    "name": "Gabe Newell",
+    "message": "sent you a message:",
+    "action": "\"Half-Life 3 confirmed?\"",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gaben"
+  },
+  {
+    "id": "linus-achievement",
+    "type": "achievement",
+    "name": "Linus Torvalds",
+    "message": "unlocked achievement:",
+    "action": "Built Different",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Linus"
+  },
+  {
+    "id": "shark-online",
+    "type": "friend-online",
+    "name": "Super shark",
+    "message": "is now online",
+    "avatar": "https://cdn.discordapp.com/role-icons/844210992031727626/407e487fe95187504721856c208f4d4a.webp?size=256&quality=lossless"
+  },
+  {
+    "id": "fat-cat",
+    "type": "playing",
+    "name": "Super shark",
+    "message": "is now playing",
+    "action": "Balatro",
+    "avatar": "https://cdn.discordapp.com/emojis/1244493833375449149.png?size=64&quality=lossless"
+  }
+]

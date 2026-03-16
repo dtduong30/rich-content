@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "name": "Lionel Messi",
+      "avatar": "https://cdn.discordapp.com/emojis/1355102907866808364.webp?size=240"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "avatar": "https://cdn.discordapp.com/emojis/1006287871671541760.webp?size=240"
+    },
+    {
+      "name": "Kylian Mbappé",
+      "avatar": "https://cdn.discordapp.com/emojis/1080499827185549392.webp"
+    },
+    {
+      "name": "Faker",
+      "avatar": "https://cdn.discordapp.com/emojis/1244493833375449149.png?size=64&quality=lossless"
+    },
+    {
+      "name": "Elon Musk",
+      "avatar": "https://cdn.discordapp.com/role-icons/844210992031727626/407e487fe95187504721856c208f4d4a.webp?size=256&quality=lossless"
+    },
+    {
+      "name": "Naruto Uzumaki",
+      "avatar": "https://cdn.discordapp.com/emojis/1244493833375449149.png?size=64&quality=lossless"
+    },
+    {
+      "name": "Linus Torvalds",
+      "avatar": "https://api.dicebear.com/9.x/adventurer/svg?seed=Ryker"
+    },
+    {
+      "name": "Gabe Newell",
+      "avatar": "https://cdn.discordapp.com/emojis/1244493833375449149.png?size=64&quality=lossless"
+    }
+  ],
+
+  "games": [
+    "FIFA 26",
+    "Counter-Strike 2",
+    "Balatro",
+    "Dota 2",
+    "Fortnite",
+    "GTA V",
+    "Rocket League",
+    "Valorant",
+    "Elden Ring"
+  ],
+
+  "achievements": [
+    "GOAT Status",
+    "Headshot Machine",
+    "Unstoppable",
+    "Ranked Grinder",
+    "First Blood",
+    "Victory Royale",
+    "Legendary Player",
+    "Ultimate Champion",
+    "Speedrunner",
+    "Boss Slayer",
+    "Touching Grass",
+    "Keyboard Destroyer"
+  ],
+
+  "messages": [
+    "\"Need backup!\"",
+    "\"Join my lobby\"",
+    "\"Let's run ranked\"",
+    "\"You carried that match\"",
+    "\"Steam sale just started\"",
+    "\"New season is live\""
+  ],
+
+  "invites": [
+    "Ranked Match",
+    "Custom Lobby",
+    "Co-op Campaign",
+    "Battle Royale Squad",
+    "Dungeon Raid",
+    "Tournament Lobby"
+  ],
+
+  "templates": [
+    {
+      "type": "friend-online",
+      "message": "is now online"
+    },
+    {
+      "type": "playing",
+      "message": "is now playing",
+      "action": "game"
+    },
+    {
+      "type": "achievement",
+      "message": "unlocked achievement:",
+      "action": "achievement"
+    },
+    {
+      "type": "invite",
+      "message": "has invited you to",
+      "action": "invite"
+    },
+    {
+      "type": "message",
+      "message": "sent you a message:",
+      "action": "message"
+    }
+  ]
+}

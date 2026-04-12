@@ -1,0 +1,128 @@
+[
+  {
+    "id": "project-1",
+    "name": "TRIDENTITY DIGITAL IDENTITY SYSTEM (TRIAPP, RDC PASS, PARTNER PORTAL)",
+    "period": "07/2025 - Present",
+    "position": "Backend Engineer",
+    "teamSize": 15,
+    "techStack": [
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "BullMQ",
+      "ClickHouse",
+      "Jenkins",
+      "Grafana",
+      "Trivy",
+      "Microservices",
+      "eKYC"
+    ],
+    "overview": "Scaling a national digital identity ecosystem for the Republic of Congo, serving 10M+ citizens and 100+ enterprise partners across identity, administrative, and billing systems.",
+    "keyContributions": [
+      "Designed backend services for large-scale citizen identity and multi-level verification workflows",
+      "Handled millions of daily administrative operations with scalable APIs",
+      "Built partner onboarding and billing system for 100+ partners",
+      "Decoupled core modules into microservices, improving scalability and maintainability",
+      "Improved performance using Redis caching and BullMQ async processing",
+      "Enhanced observability and delivery with Grafana, Jenkins, and Trivy"
+    ]
+  },
+  {
+    "id": "project-2",
+    "name": "LANGFARM E-COMMERCE PLATFORM",
+    "period": "03/2023 - 04/2025",
+    "position": "Backend Engineer",
+    "teamSize": 11,
+    "techStack": [
+      "NodeJS",
+      "NestJS",
+      "MedusaJS",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Microservices"
+    ],
+    "overview": "Developed backend systems for an e-commerce platform supporting product management, order processing, payments, and CMS-driven growth.",
+    "keyContributions": [
+      "Built core services for catalog, order processing, and customer management",
+      "Integrated Payoo payment and shipping services for 1,000+ monthly transactions",
+      "Developed SEO CMS, increasing organic traffic by 25%",
+      "Reduced API latency by 40% using Redis caching",
+      "Improved system modularity for better scalability"
+    ]
+  },
+  {
+    "id": "project-3",
+    "name": "LANGFARM WAREHOUSE MANAGEMENT SYSTEM",
+    "period": "03/2023 - 04/2025",
+    "position": "Backend Developer",
+    "teamSize": 11,
+    "techStack": [
+      "Golang",
+      "Gin",
+      "NestJS",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "AWS Cognito",
+      "Microservices"
+    ],
+    "overview": "Built backend services for a real-time warehouse and logistics system integrating multiple e-commerce platforms.",
+    "keyContributions": [
+      "Designed real-time inventory system integrating Shopee, Lazada, TikTok Shop",
+      "Built APIs supporting 500+ daily logistics operations",
+      "Reduced query response time by 30%",
+      "Implemented secure authentication with AWS Cognito",
+      "Improved data synchronization across distributed services"
+    ]
+  },
+  {
+    "id": "project-4",
+    "name": "WHALLEX - CRYPTO EXCHANGE SYSTEM",
+    "period": "05/2022 - 01/2023",
+    "position": "Backend Developer",
+    "teamSize": 11,
+    "techStack": [
+      "NestJS",
+      "Microservices",
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "RabbitMQ",
+      "Kubernetes",
+      "Docker",
+      "Centrifugo"
+    ],
+    "overview": "Developed a high-throughput backend for a cryptocurrency exchange platform focusing on real-time trading and KYC workflows.",
+    "keyContributions": [
+      "Built user management and KYC verification services",
+      "Integrated Binance API for real-time trading data",
+      "Handled 5,000+ concurrent connections with real-time event system",
+      "Built background processing using RabbitMQ",
+      "Delivered WebSocket and REST APIs for trading features"
+    ]
+  },
+  {
+    "id": "project-5",
+    "name": "BELUXURY MAGAZINE",
+    "period": "09/2021 - 04/2022",
+    "position": "Fullstack Developer",
+    "teamSize": 5,
+    "techStack": [
+      "Node.js",
+      "MongoDB",
+      "Firebase",
+      "ExpressJS",
+      "ReactJS",
+      "Heroku"
+    ],
+    "overview": "Developed a digital media platform delivering content, scheduling, and analytics with a mobile-optimized experience.",
+    "keyContributions": [
+      "Built CMS for content and partnership management",
+      "Integrated Firebase authentication and real-time notifications",
+      "Increased user engagement by 30% with React UI improvements",
+      "Maintained 99.9% uptime on Heroku deployment"
+    ]
+  }
+]

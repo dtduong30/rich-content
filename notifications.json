@@ -31,6 +31,22 @@
     {
       "name": "Gabe Newell",
       "avatar": "https://cdn.discordapp.com/emojis/1244493833375449149.png?size=64&quality=lossless"
+    },
+    {
+      "name": "Agent P",
+      "avatar": "https://cdn.discordapp.com/emojis/797544823762583582.png?size=320"
+    },
+    {
+      "name": "Xuân Son",
+      "avatar": "https://cdn.discordapp.com/emojis/1322928560440213565.png?size=128"
+    },
+    {
+      "name": "Racing boy",
+      "avatar": "https://cdn.discordapp.com/emojis/1268571997315666095.png?size=128"
+    },
+    {
+      "name": "Yugi Atem",
+      "avatar": "https://cdn.discordapp.com/emojis/560949371307294740.webp?size=240"
     }
   ],
 
@@ -43,7 +59,9 @@
     "GTA V",
     "Rocket League",
     "Valorant",
-    "Elden Ring"
+    "Elden Ring",
+    "Yu-Gi-Oh! Master Duel",
+    "Team Tactics Fight"
   ],
 
   "achievements": [
@@ -58,7 +76,8 @@
     "Speedrunner",
     "Boss Slayer",
     "Touching Grass",
-    "Keyboard Destroyer"
+    "Keyboard Destroyer",
+    "Hackerdog"
   ],
 
   "messages": [

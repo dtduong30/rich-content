@@ -1,8 +1,8 @@
 [
   {
-    "id": "project-1",
-    "name": "TRIDENTITY DIGITAL IDENTITY SYSTEM (TRIAPP, RDC PASS, PARTNER PORTAL)",
-    "period": "07/2025 - Present",
+    "id": "project-7",
+    "name": "RDC PASS & RDC PARTNER PORTAL",
+    "period": "12/2026 - Present",
     "position": "Backend Engineer",
     "teamSize": 15,
     "techStack": [
@@ -10,25 +10,83 @@
       "PostgreSQL",
       "Redis",
       "BullMQ",
+      "Microservices",
+      "eKYC",
+      "ELK",
       "ClickHouse",
+      "OpenTelemetry",
       "Jenkins",
       "Grafana",
-      "Trivy",
-      "Microservices",
-      "eKYC"
+      "ArgoCD",
+      "Trivy"
     ],
-    "overview": "Scaling a national digital identity ecosystem for the Republic of Congo, serving 10M+ citizens and 100+ enterprise partners across identity, administrative, and billing systems.",
+    "overview": "Developed backend for RDC Pass — a national digital identity system for the DR Congo government (comparable to VNeID) — and RDC Partner Portal, a decoupled service managing partner operations and billing.",
     "keyContributions": [
-      "Designed backend services for large-scale citizen identity and multi-level verification workflows",
-      "Handled millions of daily administrative operations with scalable APIs",
-      "Built partner onboarding and billing system for 100+ partners",
-      "Decoupled core modules into microservices, improving scalability and maintainability",
-      "Improved performance using Redis caching and BullMQ async processing",
-      "Enhanced observability and delivery with Grafana, Jenkins, and Trivy"
+      "Built APIs for citizen administrative record management, document handling, EKYC verification, and enrollment workflows",
+      "Developed RDC Partner Portal as a decoupled microservice handling partner onboarding, service billing and invoicing",
+      "Implemented staff and role management with fine-grained access control",
+      "Built service request and profile request workflows, reducing load on the core identity system",
+      "Integrated OpenTelemetry for distributed tracing and observability across services",
+      "Implemented background worker processes to handle async tasks such as data syncing, scheduled jobs, and event-driven operations — offloading heavy processing from the main API layer",
+      "Translated BA requirements into technical features by breaking down business specifications into API contracts, data models, and service workflows — bridging the gap between product and engineering"
     ]
   },
   {
-    "id": "project-2",
+    "id": "project-6",
+    "name": "TRIDENTITY APP",
+    "period": "07/2025 - Present",
+    "position": "Backend Engineer",
+    "teamSize": 11,
+    "techStack": [
+      "NestJS",
+      "PostgreSQL",
+      "ELK",
+      "Redis",
+      "BullMQ",
+      "Microservices",
+      "Jenkins",
+      "Trivy",
+      "Grafana"
+    ],
+    "overview": "Maintained and extended backend services for Tridentity App — a loyalty and digital identity mobile platform — focusing on coupon management and analytics reporting modules",
+    "keyContributions": [
+      "Developed and maintained coupon management features including exclusive coupons, coupon catalogue, categories, and redemption flows",
+      "Built and improved analytics and reporting modules for platform insights",
+      "Collaborated in cross-functional Agile team contributing to sprint planning and API integration with frontend and mobile teams",
+      "Worked with ClickHouse and OpenTelemetry for system observability and analytics",
+      "Maintained CI/CD pipelines via Jenkins and monitored system health through Grafana dashboards"
+    ]
+  },
+  {
+    "id": "project-5",
+    "name": "LANGFARM TICKET",
+    "period": "03/2023 - 04/2025",
+    "position": "Fullstack Developer",
+    "teamSize": 5,
+    "techStack": [
+      "NodeJS",
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "AWS SQS",
+      "AWS Lambda",
+      "Payoo",
+      "MISA"
+    ],
+    "connectedTo": ["project-3"],
+    "connectionNote": "Publishes ticket sales and revenue events to AWS SQS after successful transactions. Langfarm Dashboard consumes these events to sync ticketing revenue into unified financial reports and business dashboards.",
+    "overview": "Built the entire backend for Langfarm's amusement park ticketing system, supporting online and offline ticket sales, daily quota management, secure payments, and automated accounting — with revenue synced to the central dashboard for business reporting.",
+    "keyContributions": [
+      "Engineered ticket creation, issuance, and daily quota scheduling modules for online and offline ticket orders",
+      "Integrated Payoo for secure payment processing across all ticket sales channels",
+      "Automated VAT invoice generation with seamless integration into the MISA accounting system",
+      "Published ticket sale and revenue events to AWS SQS for real-time sync to Langfarm Dashboard",
+      "Built unified backend workflows handling both walk-in and pre-booked ticket orders",
+      "Implemented quota enforcement logic to prevent overselling across time slots and ticket categories"
+    ]
+  },
+  {
+    "id": "project-4",
     "name": "LANGFARM E-COMMERCE PLATFORM",
     "period": "03/2023 - 04/2025",
     "position": "Backend Engineer",
@@ -43,68 +101,77 @@
       "AWS",
       "Microservices"
     ],
-    "overview": "Developed backend systems for an e-commerce platform supporting product management, order processing, payments, and CMS-driven growth.",
+    "overview": "Developed backend systems for an e-commerce platform supporting product management, order processing, payments, shipping integrations, and SEO-driven content — supporting both customer-facing operations and internal management.",
     "keyContributions": [
-      "Built core services for catalog, order processing, and customer management",
-      "Integrated Payoo payment and shipping services for 1,000+ monthly transactions",
-      "Developed SEO CMS, increasing organic traffic by 25%",
-      "Reduced API latency by 40% using Redis caching",
-      "Improved system modularity for better scalability"
+      "Built core services for product catalog management, order processing, and customer management supporting 1,000+ monthly transactions",
+      "Integrated Payoo payment gateway and shipping services (GHTK/ViettelPost) for end-to-end order fulfillment",
+      "Developed SEO-optimized CMS with blog, campaign, and customer management features, increasing organic traffic by 25%",
+      "Optimized API performance, reducing average response time by 40%",
+      "Improved system modularity for better scalability",
+      "Built admin backend APIs for internal team to manage products, orders, promotions, and customer data"
     ]
   },
   {
     "id": "project-3",
-    "name": "LANGFARM WAREHOUSE MANAGEMENT SYSTEM",
+    "name": "LANGFARM DATA HUB",
     "period": "03/2023 - 04/2025",
-    "position": "Backend Developer",
+    "position": "Backend Engineer",
     "teamSize": 11,
     "techStack": [
-      "Golang",
-      "Gin",
-      "NestJS",
-      "PostgreSQL",
+      "NodeJS",
       "MongoDB",
+      "PostgreSQL",
       "Redis",
+      "AWS SQS",
+      "AWS Lambda",
+      "AWS S3",
       "AWS Cognito",
-      "Microservices"
+      "RemixJS",
+      "CASL",
+      "Microservices",
+      "Golang (Gin)"
     ],
-    "overview": "Built backend services for a real-time warehouse and logistics system integrating multiple e-commerce platforms.",
+    "overview": "Sole backend developer for Langfarm's central dashboard — the source of truth for the entire business. Aggregates data from e-commerce, ticketing, third-party marketplaces, and legacy systems into a unified platform for reporting, warehouse management, invoicing, and access control.",
     "keyContributions": [
-      "Designed real-time inventory system integrating Shopee, Lazada, TikTok Shop",
-      "Built APIs supporting 500+ daily logistics operations",
-      "Reduced query response time by 30%",
-      "Implemented secure authentication with AWS Cognito",
-      "Improved data synchronization across distributed services"
+      "Designed and built the entire backend from scratch as sole developer, covering data ingestion, normalization, storage, and reporting APIs",
+      "Implemented AWS SQS consumers and Lambda functions to receive and normalize event streams from Langfarm E-commerce, Langfarm Ticket, and external platforms (KiotViet, Shopee, Lazada, TikTok Shop)",
+      "Architected real-time warehouse inventory management integrating multiple e-commerce platforms, supporting 500+ daily logistics operations",
+      "Built fine-grained role-based access control using CASL, managing permissions across warehouse staff, admin, and management roles",
+      "Developed invoice management and financial reporting pipelines, aggregating revenue data from all connected systems",
+      "Migrated and normalized data from legacy systems into the central data store, ensuring historical data continuity",
+      "Optimized database query performance by 30% across reporting and inventory modules",
+      "Built RESTful APIs consumed by the frontend dashboard for real-time operational visibility"
     ]
   },
   {
-    "id": "project-4",
+    "id": "project-2",
     "name": "WHALLEX - CRYPTO EXCHANGE SYSTEM",
     "period": "05/2022 - 01/2023",
     "position": "Backend Developer",
     "teamSize": 11,
     "techStack": [
+      "NodeJS",
       "NestJS",
-      "Microservices",
-      "MongoDB",
       "PostgreSQL",
+      "MongoDB",
       "Redis",
+      "Microservices",
       "RabbitMQ",
-      "Kubernetes",
       "Docker",
+      "Kubernetes",
       "Centrifugo"
     ],
-    "overview": "Developed a high-throughput backend for a cryptocurrency exchange platform focusing on real-time trading and KYC workflows.",
+    "overview": "Developed and scaled a high-throughput backend for a cryptocurrency exchange platform, focusing on user management, KYC workflows, and real-time trading data.",
     "keyContributions": [
       "Built user management and KYC verification services",
       "Integrated Binance API for real-time trading data",
-      "Handled 5,000+ concurrent connections with real-time event system",
-      "Built background processing using RabbitMQ",
-      "Delivered WebSocket and REST APIs for trading features"
+      "Delivered structured data for TradingView charts to visualize real-time market trends and blockchain asset trading activity",
+      "Collaborated with frontend and mobile teams to integrate RESTful APIs and WebSocket services",
+      "Built scalable tournament modules and background workers using Centrifugo and RabbitMQ, supporting 5,000+ concurrent connections"
     ]
   },
   {
-    "id": "project-5",
+    "id": "project-1",
     "name": "BELUXURY MAGAZINE",
     "period": "09/2021 - 04/2022",
     "position": "Fullstack Developer",

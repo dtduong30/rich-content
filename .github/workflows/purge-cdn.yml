@@ -1,0 +1,21 @@
+# .github/workflows/purge-cdn.yml
+name: Purge jsDelivr Cache
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "projects.json"
+      - "notifications.json"
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge projects.json
+        run: |
+          curl "https://purge.jsdelivr.net/gh/dtduong30/rich-content@master/projects.json"
+
+      - name: Purge notifications.json
+        run: |
+          curl "https://purge.jsdelivr.net/gh/dtduong30/rich-content@master/notifications.json"

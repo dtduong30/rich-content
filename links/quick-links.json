@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/dtduong30",
+    "category": "dev",
+    "icon": "github"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/rustic3011/",
+    "category": "social",
+    "icon": "linkedin"
+  }
+]

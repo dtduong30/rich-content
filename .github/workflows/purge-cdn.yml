@@ -7,6 +7,9 @@ on:
     paths:
       - "projects.json"
       - "notifications.json"
+      - "links/quick-links.json"
+      - "watchlist/watchlist.json"
+      - "iptv/channels.json"
 
 jobs:
   purge:
@@ -19,3 +22,15 @@ jobs:
       - name: Purge notifications.json
         run: |
           curl "https://purge.jsdelivr.net/gh/dtduong30/rich-content@master/notifications.json"
+
+      - name: Purge links/quick-links.json
+        run: |
+          curl "https://purge.jsdelivr.net/gh/dtduong30/rich-content@master/links/quick-links.json"
+
+      - name: Purge watchlist/watchlist.json
+        run: |
+          curl "https://purge.jsdelivr.net/gh/dtduong30/rich-content@master/watchlist/watchlist.json"
+
+      - name: Purge iptv/channels.json
+        run: |
+          curl "https://purge.jsdelivr.net/gh/dtduong30/rich-content@master/iptv/channels.json"
